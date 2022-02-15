@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bootstrap-container,
+.bootstrap-breackpoints,
+.bootstrap-grid-system,
+.bootstrap-typographie,
+.bootstrap-forms,
+.bootstrap-images,
+.bootstrap-icons,
+.bootstrap-dropdown,
+.bootstrap-progress,
+.bootstrap-tooltips,
+.bootstrap-modals,
+.bootstrap-navBar,
+.bootstrap-scrollspy,
+.bootstrap-components {
+    border: 5px solid #333;
+    margin: 100px 0px;
+}
+
+h1 {
+    text-align: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: rgb(183, 0, 255);
+    transition: 1.2s;
+
+}
+
+a::after {
+    color: red;
+}
+
+.sans-container {
+    background-color: lightseagreen;
+}
+
+.container-fluid {
+    background-color: lightskyblue;
+}
+
+.container {
+    background-color: lightcyan;
+}
+
+.row {
+    margin: 150px;
+}
+
+#block-1,
+#block-2,
+#block-3,
+#block-4,
+#block-5,
+#block-6,
+#block-7,
+#block-8,
+#block-9,
+#block-10,
+#block-11,
+#block-12 {
+    border: 1px solid black;
+}
+
+.les-12-col {
+    display: none;
+    font-size: 30px;
+}
+
+.typo-marge,
+.form-marge {
+    margin: 10px;
+}
+
+.typo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form a {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.btn-group {
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.lien-nav a {
+    display: flex;
+    justify-content: center;
+}
+
+nav .container-fluid {
+    background: none;
+}
+
+.d-flex {
+    width: auto;
+    margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .resp {
+        width: auto;
+        height: 200px;
+    }
+
+    .resp h2 {
+        display: none;
+    }
+
+    .les-12-col {
+        display: block;
+
+    }
+
+}

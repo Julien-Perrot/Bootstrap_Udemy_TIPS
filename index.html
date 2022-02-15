@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>BOOTSTRAP</title>
+    </head>
+    <body>
+
+        <section class="bootstrap-container">
+            <h1>CONTAINER --></h1>
+            <div class="sans-container">
+                <h3>Bootstrap sans aucun container (sans aucune largeur)</h3>
+                <p>paragraphe bootstrap</p>
+            </div>
+    
+            <div class="container-fluid">
+                <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                <p>paragraphe bootstrap</p>
+            </div>
+    
+            <div class="container">
+                <h3>Bootstrap avec un container (largeur fixe)</h3>
+                <p>paragraphe bootstrap</p>
+            </div>
+        </section>
+
+        <section class="bootstrap-breackpoints">
+            <h1>BREACKPOINTS --></h1>
+            <div class="break">
+                <ul>
+                    <li><p>.container, qui définit un max-widthà chaque point d'arrêt réactif</p></li>
+                    <li><p>.container-fluid, qui est width: 100%à tous les points d'arrêt</p></li>
+                    <li><p>.container-{breakpoint}, c'est- à-dire width: 100%jusqu'au point d'arrêt spécifié</p></li>
+                    <li><a href="https://getbootstrap.com/docs/5.1/layout/containers/" target="_blank">Breackpoints containers</a></li>
+                    <li><a href="https://getbootstrap.com/docs/5.1/layout/breakpoints/" target="_blank">Responsive breackpoints</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bootstrap-grid-system">
+            <h1>GRID SYSTEM --> <br>
+                <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Bootstrap contient 12 GRILLES pas une de plus !</a>
+            </h1>
+            <div class="container">
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <div id="block-1" class="col-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <div id="block-1" class="col-3"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 3 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-9"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 9 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <div id="block-1" class="col-5"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 5 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-7"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 7 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <h2>RESPONSIVE SUR LES COLONNES col-5 & col-6 en très très grand (XXL) inférieur à 1400px col-xxl-6</h2>
+                    <div id="block-1" class="col-xxl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-xxl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+
+                    </div>
+                    <div id="block-3" class="col-xxl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-4" class="col-xxl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <h2>RESPONSIVE SUR LES COLONNES col-5 & col-6 en large (XL) inférieur à 1200px col-xl-6</h3>
+                    <div id="block-1" class="col-xl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-xl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-3" class="col-xl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-4" class="col-xl-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <h2>RESPONSIVE SUR LES COLONNES col-6 en large (LG) inférieur à 992px col-lg-6</h2>
+                    <div id="block-1" class="col-lg-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-lg-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-3" class="col-lg-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-4" class="col-lg-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <h2>RESPONSIVE SUR LES COLONNES col-6 en medium (MD) inférieur à 768px col-md-6</h2>
+                    <div id="block-1" class="col-md-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-md-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-3" class="col-md-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-4" class="col-md-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- row est une ligne horizontal -->
+                    <h2>RESPONSIVE SUR LES COLONNES col-6 en small (SM) inférieur à 576px col-sm-6</h2>
+                    <div id="block-1" class="col-sm-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-2" class="col-sm-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-3" class="col-sm-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                    <div id="block-4" class="col-sm-6"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container (largeur fixe) Un Block de 6 colonnes</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center"> <!-- row est une ligne horizontal -->
+                    <h2>COMPILATION EN RESPONSIVE SUR LES COLONNES col-sm-2 | col-md-4 | col-lg-6 | col-xl-10 | col-xxl-12</h2>
+                    <div id="block-1" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-2" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-3" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-4" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-5" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-6" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-7" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-8" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-9" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-10" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-11" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                    <div id="block-12" class="resp col-sm-2 col-md-4 col-lg-6 col-xl-10 col-xxl-12"> <!-- col est une colonne vertical -->
+                        <h3>Bootstrap avec un container-fluid (largeur fluide)</h3>
+                        <span class="les-12-col">COMPILATION EN RESPONSIVE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-typographie">
+            <h1>TYPOGRAPHY --></h1>
+            <div class="row typo-marge">
+                <div class="col typo">
+                    <a href="https://getbootstrap.com/docs/5.1/content/typography/" target="_blank">TYPOGRAPHY TITRE</a>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-forms">
+            <h1>FORMS (formulaire) --></h1>
+            <div class="row form-marge">
+                <div class="col form">
+                    <a href="https://getbootstrap.com/docs/5.1/forms/overview/" target="_blank">APERÇU FORMS (formulaire)</a><br>
+                    <a href="https://getbootstrap.com/docs/5.1/forms/form-control/" target="_blank">CONTRÔLE DE FORMULAIRE</a>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <select class="form-select mb-3" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-forms">
+            <h1>BUTTONS + BUTTONS GROUP --></h1>
+            <div class="row form-marge">
+                <div class="col form">
+                    <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank">BUTTONS</a><br>
+                    <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank">BUTTONS GROUP</a>
+                    <div class="text-center m-3">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-light">Light</button>
+                        <button type="button" class="btn btn-dark">Dark</button>
+                        <button type="button" class="btn btn-link">Link</button>
+                    </div>
+                    <div class="btn-group m-3" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-danger">Left</button>
+                        <button type="button" class="btn btn-warning">Middle</button>
+                        <button type="button" class="btn btn-success">Right</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-images">
+            <h1>IMAGES --></h1>
+            <div class="row form-marge">
+                <div class="col form images">
+                    <a href="https://getbootstrap.com/docs/5.1/content/images/" target="_blank">IMAGES</a>
+                    <img class="img-fluid m-3" src="assets/pebble-g4cc41e649_1280.jpg" alt="Photo de cailloux" />
+                    <img class="img-fluid img-thumbnail m-3" src="assets/pebble-g4cc41e649_1280.jpg" alt="Photo de cailloux" />
+                    <img class="img-fluid rounded m-3" src="assets/pebble-g4cc41e649_1280.jpg" alt="Photo de cailloux" />
+                    <img class="img-fluid rounded-circle m-3" src="assets/pebble-g4cc41e649_1280.jpg" alt="Photo de cailloux" />
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-icons">
+            <h1>ICONS --></h1>
+            <div class="row form-marge">
+                <div class="col form icons">
+                    <a href="https://getbootstrap.com/docs/5.1/extend/icons/" target="_blank">ICONS</a>
+                    <div class="text-center m-3">
+                        <button type="button" class="btn btn-primary"><span class="bi bi-search"></span>Search</button>
+                        <button type="button" class="btn btn-success"><span class="bi bi-printer"></span>Print</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-dropdown">
+            <h1>DROPDOWN --></h1>
+            <div class="row form-marge">
+                <div class="col form drop">
+                    <a href="https://getbootstrap.com/docs/5.1/components/dropdowns/" target="_blank">DROPDOWN</a>
+                    <div class="text-center m-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-progress">
+            <h1>PROGRESS --></h1>
+            <div class="row form-marge" style="width: 40%; margin: auto;">
+                <div class="col form drop">
+                    <a href="https://getbootstrap.com/docs/5.1/components/progress/" target="_blank">PROGRESS</a>
+                    <div class="text-center m-3">
+                        <div class="progress m-3">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress m-3">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress m-3">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress m-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress m-3">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-tooltips">
+            <h1>TOOLTIPS --></h1>
+            <div class="row form-marge">
+                <div class="col form tooltips">
+                    <a href="https://getbootstrap.com/docs/5.1/components/tooltips/" target="_blank">TOOLTIPS</a>
+                    <div class="text-center m-3">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                            Tooltip on top
+                          </button>
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                          </button>
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                            Tooltip on bottom
+                          </button>
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+                            Tooltip on left
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-modals">
+            <h1>MODALS --></h1>
+            <div class="row form-marge">
+                <div class="col form modals">
+                    <a href="https://getbootstrap.com/docs/5.1/components/modal/" target="_blank">MODALS</a>
+                    <div class="text-center m-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-navBar">
+            <h1>NAVBAR --></h1>
+            <div class="lien-nav">
+                <a href="https://getbootstrap.com/docs/5.1/components/navbar/" target="_blank">NAVBAR</a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="bootstrap-scrollspy">
+            <h1>SCROLLSPY --></h1>
+            <div class="row form-marge">
+                <div class="col form scrollspy">
+                    <a href="https://getbootstrap.com/docs/5.1/components/scrollspy/" target="_blank">SCROLLSPY</a>
+                    <div class="text-center m-3">
+                        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                            <ul class="nav nav-pills">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading1">First</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </nav>
+                          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                            <h4 id="scrollspyHeading1">First heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, totam debitis earum ipsa consequatur quam omnis molestias ex hic ab repudiandae, blanditiis aspernatur at assumenda. Magnam deserunt atque sunt praesentium!<br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates enim commodi a fugit debitis incidunt. Rem aliquid atque natus cumque fuga. Expedita laborum ratione eum totam, iusto est corporis.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur aut ad officia corrupti tenetur, accusamus ut obcaecati illum a quis asperiores ullam veritatis hic repellendus animi fugiat, eaque itaque!
+                            </p>
+                            <h4 id="scrollspyHeading2">Second heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, totam debitis earum ipsa consequatur quam omnis molestias ex hic ab repudiandae, blanditiis aspernatur at assumenda. Magnam deserunt atque sunt praesentium!<br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates enim commodi a fugit debitis incidunt. Rem aliquid atque natus cumque fuga. Expedita laborum ratione eum totam, iusto est corporis.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur aut ad officia corrupti tenetur, accusamus ut obcaecati illum a quis asperiores ullam veritatis hic repellendus animi fugiat, eaque itaque!
+                            </p>
+                            <h4 id="scrollspyHeading3">Third heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, totam debitis earum ipsa consequatur quam omnis molestias ex hic ab repudiandae, blanditiis aspernatur at assumenda. Magnam deserunt atque sunt praesentium!<br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates enim commodi a fugit debitis incidunt. Rem aliquid atque natus cumque fuga. Expedita laborum ratione eum totam, iusto est corporis.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur aut ad officia corrupti tenetur, accusamus ut obcaecati illum a quis asperiores ullam veritatis hic repellendus animi fugiat, eaque itaque!
+                            </p>
+                            <h4 id="scrollspyHeading4">Fourth heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, totam debitis earum ipsa consequatur quam omnis molestias ex hic ab repudiandae, blanditiis aspernatur at assumenda. Magnam deserunt atque sunt praesentium!<br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates enim commodi a fugit debitis incidunt. Rem aliquid atque natus cumque fuga. Expedita laborum ratione eum totam, iusto est corporis.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur aut ad officia corrupti tenetur, accusamus ut obcaecati illum a quis asperiores ullam veritatis hic repellendus animi fugiat, eaque itaque!
+                            </p>
+                            <h4 id="scrollspyHeading5">Fifth heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, totam debitis earum ipsa consequatur quam omnis molestias ex hic ab repudiandae, blanditiis aspernatur at assumenda. Magnam deserunt atque sunt praesentium!<br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates enim commodi a fugit debitis incidunt. Rem aliquid atque natus cumque fuga. Expedita laborum ratione eum totam, iusto est corporis.<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur aut ad officia corrupti tenetur, accusamus ut obcaecati illum a quis asperiores ullam veritatis hic repellendus animi fugiat, eaque itaque!
+                            </p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-components">
+            <h1>COMPONENTS --></h1>
+            <div class="row form-marge">
+                <div class="col form components">
+                    <a href="https://getbootstrap.com/docs/5.1/components/accordion/" target="_blank">COMPONENTS</a>
+                    <div class="text-center m-3">
+                        <p>Visiter le lien au dessus, il y a beaucoup de components.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
